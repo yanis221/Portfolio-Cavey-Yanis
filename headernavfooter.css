@@ -1,0 +1,129 @@
+@import url("fonts/Telma_Complete/Telma_Complete/Fonts/WEB/css/telma.css");
+@import url("fonts/Lora_Complete/Lora_Complete/Fonts/WEB/css/lora.css");
+@font-face {
+    font-family: "Dx";
+    src: url(fonts/DxGaster-Thin.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "DxItalic";
+    src: url(fonts/DxGaster-ThinItalic.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Dirtyline";
+    src: url(fonts/Dirtyline\ 36daysoftype\ 2022.ttf);
+    font-weight: normal;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: whitesmoke;
+    background-color:black;
+}
+header{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    white-space: nowrap;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    gap:120px ;
+    
+    
+    
+
+
+}
+nav{
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    padding: 25px;
+}
+
+nav ul li{
+    font-family: 'DX';
+    list-style-type: none;
+
+
+}
+nav ul li a{
+    color:white;
+    text-decoration:none ;
+    font-size: 32px;
+    font-weight: 500;
+
+    
+}
+nav ul li a:hover{
+    color:#FBEE3A;
+}
+footer{
+    margin-top: 20%;
+    background: url(image/footer3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0 -100px;
+    white-space: nowrap;
+    height: 100%;
+    align-content: center;
+    font-family: "DxItalic";
+    font-weight: 600;
+    font-size: 40px;
+    /* font-family: "Dirtyline"; */
+    /* text-transform: uppercase; */
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 54px;
+    color:#FBEE3A;
+
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 54px;
+    color:#FBEE3A;
+
+}
+footer a:hover{
+    transition-duration: 0.6s;
+    color:rgb(198, 150, 240);
+
+}
+.fright{
+    justify-items: right;
+    align-content: center;
+    margin-right: 5%;
+    line-height: 46px;
+}
+.fleft{
+    justify-items: left;
+    align-content: center;
+    margin-left: 5%;
+    font-weight:400;
+}
+
+.brand{
+    margin-left:3%;
+    font-size: 150px;
+    color:rgb(198, 150, 240);
+}
+.brand2{  
+    font-size: 150px;
+}
